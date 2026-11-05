@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Raw dataset videos and ground truth
+datasets/raw/
+
+# Generated RGB and preprocessed datasets
+datasets/processed/
+datasets/cleaned/
+
+# Generated reports and plots
+outputs/
+
+# Temporary files
+*.partial
+*.tmp
